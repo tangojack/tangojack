@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia, magna quis venenatis pellentesque, elit elit bibendum est, ac feugiat urna augue vel tellus.",
+      "tags": ["web design", "front-end development", "user experience"],
+      "imageSrc": "project1.jpg",
+      "url": "https://example.com/project1"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia, magna quis venenatis pellentesque, elit elit bibendum est, ac feugiat urna augue vel tellus.",
+      "tags": ["web design", "back-end development", "database design"],
+      "imageSrc": "project2.jpg",
+      "url": "https://example.com/project2"
+    },
+    {
+      "id": 3,
+      "title": "Project 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia, magna quis venenatis pellentesque, elit elit bibendum est, ac feugiat urna augue vel tellus.",
+      "tags": ["web design", "front-end development", "user experience"],
+      "imageSrc": "project3.jpg",
+      "url": "https://example.com/project3"
+    }
+  ]
+}
