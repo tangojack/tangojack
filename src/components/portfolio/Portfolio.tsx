@@ -39,18 +39,18 @@ const Portfolio: React.FC<PortfolioProps> = ({ items }) => {
   });
 
   return (
-    <div>
-      <div>
+    <div className="portfolio">
+      <div className="filters">
         {tags.map((tag) => (
           <button
             key={tag}
-            className={selectedTags.some((t) => t === tag) ? "selected" : ""}
+            className={`badge ${selectedTags.some((t) => t === tag) ? "text-bg-primary" : "text-bg-light"}`}
             onClick={() => handleTagClick(tag)}
           >
             {tag}
           </button>
         ))}
-        <div>
+        {/* <div>
           <label>
             <input
               type="radio"
@@ -69,15 +69,27 @@ const Portfolio: React.FC<PortfolioProps> = ({ items }) => {
             />
             AND
           </label>
-        </div>
+        </div> */}
       </div>
-      <div className="portfolio-grid">
-        {filteredItems.map((item) => (
-          <PortfolioItem key={item.id} {...item} />
-        ))}
+
+      <div id="carousel" className="carousel slide">
+        <div className="carousel-inner">
+          {filteredItems.map((item, index) => (
+            <PortfolioItem key={item.id} id={index} url={item.url} title={item.title} description={item.description} imageSrc={item.imageSrc} tags={item.tags} />
+          ))}
+        </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   );
 };
 
 export default Portfolio;
+

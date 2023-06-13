@@ -1,0 +1,17 @@
+.header {
+    background-color: #22A699;
+}
+.navbar-brand {
+    font-weight: 800;
+}
+.nav-link {
+    font-weight: 600;
+}
+.modal-body {
+    text-align: justify;
+}
+
+.modal-body img {
+    width: 200px;
+    height: 250px;
+}

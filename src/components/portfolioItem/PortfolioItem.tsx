@@ -1,8 +1,10 @@
 import React from "react";
 import "./PortfolioItem.css";
+import { Link } from "react-router-dom";
 
 export type PortfolioItemProps = {
   id: number;
+  url: string;
   title: string;
   description: string;
   imageSrc: string;
@@ -11,24 +13,22 @@ export type PortfolioItemProps = {
 
 const PortfolioItem: React.FC<PortfolioItemProps> = ({
   id,
+  url,
   title,
   description,
   imageSrc,
   tags,
 }) => {
   return (
-    <div className="portfolio-item">
-      <img className="portfolio-item-image" src={imageSrc} alt={title} />
-      <h3 className="portfolio-item-title">{title}</h3>
-      <p className="portfolio-item-description">{description}</p>
-      <ul className="portfolio-item-tags">
-        {tags.map((tag, index) => (
-          <li className="portfolio-item-tag" key={index}>
-            {tag}
-          </li>
-        ))}
-      </ul>
-    </div>
+    <Link to={url} target="_blank">
+      <div className={`carousel-item ${id === 0 ? "active" : ""}`}>
+        <img src={imageSrc} className="d-block w-100" alt="..." />
+        <div className="carousel-caption d-block d-md-block">
+          <h5>{title}</h5>
+          <p>{description}</p>
+        </div>
+      </div>
+    </Link>
   );
 };
 

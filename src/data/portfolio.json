@@ -2,27 +2,77 @@
   "items": [
     {
       "id": 1,
-      "title": "Project 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia, magna quis venenatis pellentesque, elit elit bibendum est, ac feugiat urna augue vel tellus.",
-      "tags": ["web design", "front-end development", "user experience"],
-      "imageSrc": "project1.jpg",
-      "url": "https://example.com/project1"
+      "title": "Omni Chord Strum Plate",
+      "description": "An arpeggiator that follows chords that are played on a MIDI Keyboard",
+      "tags": ["interactive", "music accessibility", "touchosc", "vcv", "ableton"],
+      "imageSrc": "/assets/images/omni.gif",
+      "url": "https://www.youtube.com/shorts/BwOYtwcQOig"
     },
     {
       "id": 2,
-      "title": "Project 2",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia, magna quis venenatis pellentesque, elit elit bibendum est, ac feugiat urna augue vel tellus.",
-      "tags": ["web design", "back-end development", "database design"],
-      "imageSrc": "project2.jpg",
-      "url": "https://example.com/project2"
+      "title": "Special Needs School Jam",
+      "description": "A collaborative jam in an art room at a special needs instituion in Manila",
+      "tags": ["ableton", "music accessibility", "makey makey"],
+      "imageSrc": "/assets/images/perfect.gif",
+      "url": "https://www.youtube.com/watch?v=iyMN7juB2tY"
     },
     {
       "id": 3,
-      "title": "Project 3",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia, magna quis venenatis pellentesque, elit elit bibendum est, ac feugiat urna augue vel tellus.",
-      "tags": ["web design", "front-end development", "user experience"],
-      "imageSrc": "project3.jpg",
-      "url": "https://example.com/project3"
+      "title": "Interactive Album Art",
+      "description": "Visual controllers that are used to produce generative visuals over your favorites on Spotify",
+      "tags": ["touchosc", "interactive", "touchdesigner"],
+      "imageSrc": "/assets/images/albumArt.gif",
+      "url": "https://www.youtube.com/watch?v=bzsrxaYANVw"
+    },
+    {
+      "id": 4,
+      "title": "PS4 Controller x VCV",
+      "description": "Hooked up a Dualshock 4 Controller to VCV Rack which controls different parameters of the patch",
+      "tags": ["vcv", "interactive"],
+      "imageSrc": "/assets/images/ps4.gif",
+      "url": "https://www.youtube.com/watch?v=ZnCmBa5rf7c"
+    },
+    {
+      "id": 5,
+      "title": "Audio Reactive Visuals",
+      "description": "Applying visuals to the album art of The Social Network soundtrack",
+      "tags": ["touchdesigner", "ableton", "audio reactive visuals"],
+      "imageSrc": "/assets/images/inMotion.gif",
+      "url": "https://www.youtube.com/shorts/Hfw7dINgLjg"
+    },
+    {
+      "id": 6,
+      "title": "Four Chord Fruit Jam",
+      "description": "Collab with ARTBAT to play any four chord song using everyday objects",
+      "tags": ["makey makey", "vcv", "music accessibility", "interactive"],
+      "imageSrc": "/assets/images/artbat.gif",
+      "url": "https://www.youtube.com/shorts/JSC6brM_UEE"
+    },
+    {
+      "id": 7,
+      "title": "Nature Soundscape",
+      "description": "Multichannel Soundscape in Max MSP",
+      "tags": ["max/msp"],
+      "imageSrc": "/assets/images/maxscape.gif",
+      "url": "https://www.youtube.com/shorts/1CX54P7juvE"
+    },
+    {
+      "id": 8,
+      "title": "Hand Glide Synth",
+      "description": "Created a theremin that operates without the need for a motion capturing device",
+      "tags": ["opencv", "vcv", "music accessibility", "interactive"],
+      "imageSrc": "/assets/images/opencv.gif",
+      "url": "https://www.youtube.com/watch?v=KqzFmTOi-Vc"
+    },
+    {
+      "id": 9,
+      "title": "Dance Visuals",
+      "description": "Some more audio reactive visuals",
+      "tags": ["touchdesigner", "audio reactive visuals"],
+      "imageSrc": "/assets/images/danceviz.gif",
+      "url": "https://www.youtube.com/watch?v=80fQImZSfX4"
     }
+
+
   ]
 }

@@ -1,13 +1,23 @@
-button.selected {
-  background-color: #007aff;
-  color: white;
-  border-radius: 4px;
-}
-
-.portfolio-grid {
+.portfolio {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
+  flex-flow: column;
+  align-items: center;
+  color: black;
+  
 }
 
+.carousel {
+  height: 70vh;
+  width: 39.375vh; 
+}
+
+.carousel img{
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.filters {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
