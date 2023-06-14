@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tangojack/static/css/main.8f7b8959.css",
+    "main.js": "/tangojack/static/js/main.e6352b1f.js",
+    "static/js/787.7326c4b1.chunk.js": "/tangojack/static/js/787.7326c4b1.chunk.js",
+    "index.html": "/tangojack/index.html",
+    "main.8f7b8959.css.map": "/tangojack/static/css/main.8f7b8959.css.map",
+    "main.e6352b1f.js.map": "/tangojack/static/js/main.e6352b1f.js.map",
+    "787.7326c4b1.chunk.js.map": "/tangojack/static/js/787.7326c4b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f7b8959.css",
+    "static/js/main.e6352b1f.js"
+  ]
+}
