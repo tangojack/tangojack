@@ -29,6 +29,10 @@ const Navbar: React.FC = () => {
                                         target="_blank"
                                     >YouTube</a></li>
                                     <li><a className="dropdown-item"
+                                        href="https://www.github.com/tangojack"
+                                        target="_blank"
+                                    >GitHub</a></li>
+                                    <li><a className="dropdown-item"
                                         href="https://www.instagram.com/_tangojack"
                                         target="_blank"
                                     >Instagram</a></li>
@@ -48,6 +52,11 @@ const Navbar: React.FC = () => {
                                     Music Accessibility
                                 </a>
                             </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="assets/pdf/Resume.pdf" download>
+                                    Resume
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -61,7 +70,7 @@ const Navbar: React.FC = () => {
                         </div>
 
                         <div className="modal-body">
-                            Tango Jack is an interactive artist who uses technology to create immersive installations and experiences that engage and delight audiences. He continuously pushes the boundaries of what is possible in the world of art, exploring new technologies and their potential to reshape our perception of reality.
+                            Vinit Miranda (professionally known as Tango Jack) is an interactive artist who uses technology to create immersive installations and experiences that engage and delight audiences. He continuously pushes the boundaries of what is possible in the world of art, exploring new technologies and their potential to reshape our perception of reality.
 
                             His work revolves around creating <b>minimal, affordable and engaging</b> <a href="https://www.youtube.com/shorts/y8acwq13Mdg" target="_blank">interactive installations</a>, <a href="https://www.youtube.com/shorts/yIcTwa4pgKc" target="_blank">instruments for special needs</a>, and other <a href="https://www.youtube.com/@_tangojack" target="_blank">art pieces</a>.
 
