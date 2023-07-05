@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
                                         target="_blank"
                                     >WhatsApp</a></li>
                                     <li><a className="dropdown-item"
-                                        href="mailto:me@tangojack.org"
+                                        href="mailto:vmiranda@connect.hku.hk"
                                         target="_blank"
                                     >Email</a></li>
                                 </ul>
