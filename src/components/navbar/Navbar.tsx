@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vQPSyfXZbUlb9yRXXGGwbd4wvQnqvU6OIJnqYzj0qnmnyopbb-15HEFJZmHlM1LX4BjImcTMMDi74xq/pub"
+                                <a className="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vTflRvtTobuxrlj3VQ8BcavC4KNvUZMcqlx3IZ0zOci-qvsGMgoUJaszg_AHKvnPpqaBlROd--pW8zW/pub"
                                     target="_blank">
                                     Music Accessibility
                                 </a>
